@@ -6,9 +6,12 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
+  PickerIOS,
   View
 } from 'react-native';
- 
+
+var PickerItemIOS = PickerIOS.Item;
+
 var styles = StyleSheet.create({
   description: {
     fontSize: 20,
@@ -22,7 +25,7 @@ var styles = StyleSheet.create({
     backgroundColor: '#765432'
   }
 });
- 
+
 class Create extends Component {
   render() {
     return (
@@ -34,5 +37,5 @@ class Create extends Component {
     );
   }
 }
- 
+
 module.exports = Create;
